@@ -1,0 +1,21 @@
+<section class="p-4 bg-secondary loginContainer" style="--bs-bg-opacity: .5;">
+	<h2 class="text-primary mb-5">Iniciar sesión</h2>
+	<h5 class="mb-3">Ingrese su nombre</h5>
+	<form action="/login" method="POST" class="mb-2">
+		<div class='mb-3'>
+			<input id="name-product" class="form-control" type='email' name='username' placeholder="Email" />
+		</div>
+		<div class='mb-3'>
+			<input id="price-product" class="form-control" type='password' name='password' placeholder="Contraseña" />
+		</div>
+		<div class='d-flex justify-content-center'>
+			<input class="btn btn-success" type='submit' value='Iniciar sesión' />
+		</div>
+	</form>
+	<form action="/redirect-signup" method="POST">
+		<div class='d-flex justify-content-center'>
+			<h3>Todavía no tenés una cuenta? Registrate!</h3>
+			<input class="btn btn-primary" type='submit' value='Registrate' />
+		</div>
+	</form>
+</section>

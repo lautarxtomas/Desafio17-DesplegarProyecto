@@ -1,0 +1,23 @@
+<h1 class="text-center mb-3">Registrate</h1>
+<section class="row justify-content-center p-3" style="--bs-bg-opacity: .5;">
+	<div class="col-md-6">
+		<form action="/signup" method="POST" class="mb-2">
+			<div class='mb-3'>
+				<input id="name-product" class="form-control" type='email' name='username' placeholder="Email" />
+			</div>
+			<div class='mb-3'>
+				<input id="price-product" class="form-control" type='password' name='password'
+					placeholder="Contraseña" />
+			</div>
+			<div class='d-flex justify-content-center'>
+				<input class="btn btn-success" type='submit' value='Registrar usuario' />
+			</div>
+		</form>
+		<form action="/redirect-login" method="POST">
+			<div class='d-flex justify-content-center'>
+				<h3> Ya tenés una cuenta? Iniciá sesión! </h3>
+				<input class="btn btn-primary" type='submit' value='Iniciar sesión' />
+			</div>
+		</form>
+	</div>
+</section>

@@ -1,0 +1,39 @@
+{
+  "name": "desafio-9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "0x server.js",
+    "dev": "nodemon server.js",
+    "server": "nodemon --inspect server.js 3030",
+    "benchmark": "node benchmark.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "autocannon": "^7.10.0",
+    "bcrypt": "^5.1.0",
+    "compression": "^1.7.4",
+    "connect-mongo": "^4.6.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "file-uri-to-path": "^2.0.0",
+    "handlebars": "^4.7.7",
+    "log4js": "^6.7.1",
+    "minimist": "^1.2.7",
+    "mongoose": "^6.7.2",
+    "nodemon": "^2.0.20",
+    "normalizr": "^3.6.2",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "socket.io": "^4.5.2"
+  }
+}
