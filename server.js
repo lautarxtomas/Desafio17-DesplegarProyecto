@@ -101,7 +101,7 @@ io.on('connection', async socket => {
 
 const PORT = args._[0] || process.env.PORT; // Lee el puerto por consola o usa el 8080 por default (ejemplo: node server.js 8081)
 
-const server = app.listen(PORT, () => {
+const server = httpServer.listen(PORT, () => {
     logger.info(`🚀 Server started at http://localhost:${PORT}`)
     })
     
