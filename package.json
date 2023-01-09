@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "0x server.js",
     "dev": "nodemon server.js",
-    "server": "nodemon --inspect server.js 3030",
+    "insp": "nodemon --inspect server.js 5050",
     "benchmark": "node benchmark.js"
   },
   "keywords": [],

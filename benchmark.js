@@ -21,4 +21,4 @@ function run(url) {
 }
 
 console.log('Running tests')
-run('http://localhost:3030/test/info');
+run('http://localhost:5050/info');
