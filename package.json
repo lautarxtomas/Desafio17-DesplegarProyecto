@@ -5,10 +5,11 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "0x server.js",
+    "start": "node server.js",
     "dev": "nodemon server.js",
     "insp": "nodemon --inspect server.js 5050",
-    "benchmark": "node benchmark.js"
+    "benchmark": "node benchmark.js",
+    "0x": "0x server.js"
   },
   "keywords": [],
   "author": "",
